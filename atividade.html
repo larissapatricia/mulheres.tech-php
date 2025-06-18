@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2</title>
+</head>
+<body>
+    <script>
+        let numInicial = +(prompt('Digite o número inicial: ')); 
+        let numFinal = +(prompt('Digite o número final: '));
+        let numeros = [numInicial,numFinal]
+        numeros.sort((a, b) => a - b);
+        console.log(numeros)
+        
+        for(i = numeros[0]; i <= numeros[1]; i++){
+            if(i % 2 != 0)
+            document.write("Números Ímapres em ordem crescente: "+ i+'<br>')
+        }
+
+    </script>
+    <h1>Larissa P</h1>
+
+
+</body>
+</html>
