@@ -1,0 +1,77 @@
+header.bg-roxo {
+    background-image: url('./assets/vitoriaechatapracrl.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: opacity (0.8);
+    background-position-y:-300px;
+}
+
+footer.py-5{
+    background-color: pink;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: opacity (0.8);
+}
+
+/* === Cards de Produto === */
+.card-img-top{
+    height: 220px;
+    object-fit: cover;
+}
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    background-color: white;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    d-img-top {
+    height: 220px;
+    object-fit: cover;
+    border-bottom: 1px solid var(--gray);
+}
+
+/* === Preço e Título === */
+.card-body h5 {
+    font-weight: bold;
+    color: var(--rose-gold-dark);
+    margin-bottom: 0.5rem;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+/* === Estrelas de avaliação === */
+.text-warning .bi-star-fill {
+    color: #ffc107;
+}
+
+/* === Botões dos produtos === */
+.card .btn {
+    border: 1px solid var(--rose-gold-dark);
+    color: var(--rose-gold-dark);
+    transition: 0.3s;
+}
+
+.card .btn:hover {
+    background-color: var(--rose-gold-dark);
+    color: white;
+}
+box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+.whatsapp img{
+    width: 64px;
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+}
+
+.corrodape {
+    background-color: pink;
+}
